@@ -1,0 +1,65 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>Netflix Editor View</title>
+</head>
+<body style="background-image: url(purgeNetflix.jpg);">
+&nbsp; &nbsp; &nbsp; &nbsp;<br>
+&nbsp; &nbsp; &nbsp; &nbsp;<br>
+<table style="text-align: left; width: 1410px; height: 73px;"
+ border="1" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td
+ style="white-space: nowrap; background-color: rgb(0, 0, 0); text-align: center;"><big><big><big><big><span
+ style="color: rgb(255, 255, 255); font-weight: bold;">Purge
+Successfully Changed</span></big></big></big></big></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; <br>
+<div style="text-align: center;">&nbsp;<br>
+<table
+ style="text-align: left; margin-left: auto; margin-right: auto; width: 1429px; height: 123px;"
+ border="1" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="background-color: rgb(255, 255, 255);">
+      <div style="text-align: center;"></div>
+      <form action="http://localhost:8082/netflixEditorWebsite/netflixServlet" method="post"> 
+	        <div style="text-align: center;"> 
+	        <input checked="checked" name="navigationMenu" value="Return Home" type="radio">Return Home?</input><br>
+	        </div>
+	        <div style="text-align: center;">
+	        <input name="navigationMenu" value="Log Out" type="radio">LogOut?<br>
+	        </div>
+	        <div style="text-align: center;"></div>
+	        <div style="text-align: center;">
+	        <input name="Perform" value="Perform Selection" type="submit"><br>
+	        </div>
+	        <br>
+      </form>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+</div>
+<table style="text-align: left; width: 512px; height: 32px;"
+ border="1" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td><span style="color: rgb(255, 255, 255);">Copyright
+The Ro Studios</span></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+</body>
+</html>

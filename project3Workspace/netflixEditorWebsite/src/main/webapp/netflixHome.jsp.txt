@@ -1,0 +1,122 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+<title>Netflix Editor Home Screen</title>
+</head>
+<body style="background-image: url('netflixPopcorn2.jpg');">
+	&nbsp; &nbsp; &nbsp; &nbsp;
+	<br>
+	<table
+		style="width: 491px; height: 86px; background-color: transparent; text-align: left; margin-left: 0px; margin-right: auto;"
+		border="1" cellpadding="2" cellspacing="2">
+		<tbody>
+			<tr>
+				<td><big style="color: rgb(255, 255, 255);"><big><big><big><big><span
+										style="font-weight: bold;">Select a Movie</span></big></big></big></big></big></td>
+			</tr>
+		</tbody>
+	</table>
+	&nbsp; &nbsp; &nbsp; &nbsp;
+	<br>
+	<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+	<br>
+	<table
+		style="width: 499px; height: 153px; text-align: left; margin-left: 0px; margin-right: auto;"
+		border="1" cellpadding="2" cellspacing="2">
+		<tbody>
+			<tr>
+				<td>&nbsp;<span style="color: rgb(255, 255, 255);">
+						&nbsp; &nbsp; &nbsp;
+					
+					
+	<form action=http://localhost:8082/netflixEditorWebsite/netflixServlet method="get">
+								<%
+								String un = (String) request.getAttribute("username");
+								%>
+								<%
+								String pw = (String) request.getAttribute("password");
+								%>
+								<input type="hidden" value="<%=un%>" name="username"> <input
+									type="hidden" value="<%=pw%>" name="password"> 
+										
+								<%
+								String selectionText = (String) request.getAttribute("selectionList");
+								%>
+								Please choose a movie: <br>
+								<%=selectionText%><br>
+					</span><br> <span style="color: rgb(255, 255, 255);">&nbsp;
+							      </span><br>
+	      <span style="color: rgb(255, 255, 255);">&nbsp;
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+					&nbsp; &nbsp;
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+					&nbsp; &nbsp; &nbsp;
+					&nbsp;</span></td>
+					    </tr>
+					  </tbody>
+					</table>
+					<br>
+	<table
+	 style="width: 450px; height: 60px; text-align: left; margin-left: 0px; margin-right: auto;"
+	 border="1" cellpadding="2" cellspacing="2">
+	  <tbody>
+	    <tr>
+	      <td
+	 style="background-color: rgb(255, 255, 255); text-align: center;"><big
+	 style="font-weight: bold;"><big><big><big>Select
+	Edit</big></big></big></big></td>
+	    </tr>
+	  </tbody>
+	</table>
+	<br>
+	<table style="text-align: left; width: 765px; height: 157px;"
+	 border="1" cellpadding="2" cellspacing="2">
+	  <tbody>
+	    <tr>
+	      <td style="text-align: center; vertical-align: middle;">
+	      <div style="text-align: center;"><input
+	 name="AddNewMovie" value="Add a New Movie" type="submit"><br>
+	      </div>
+	      <div style="text-align: center;"><input
+	 name="purgeButton" value="Change Purge" type="submit"><input
+	 name="topMovieButton" value="View Top Movies"
+	 type="submit"><br>
+	      </div>
+	      <div style="text-align: center;">
+	      <div style="text-align: center;"> 
+	      <div style="text-align: center;"><input
+	 checked="checked" name="navigationMenu" value="LogOut"
+	 type="radio">Log Out<br>
+	      </div>
+	      <div style="text-align: center;"><input
+	 name="Perform" value="Perform Selection" type="submit"><br>
+ </form>
+      </div>
+      <br>
+&nbsp; &nbsp;<br>
+      </div>
+      </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<table
+ style="width: 1253px; height: 49px; text-align: left; margin-left: 0px; margin-right: auto;"
+ border="1" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td><span style="color: rgb(255, 255, 255);"><br>
+      <br>
+      <br>
+Copyright The Ro Studios</span></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+</body>
+</html>

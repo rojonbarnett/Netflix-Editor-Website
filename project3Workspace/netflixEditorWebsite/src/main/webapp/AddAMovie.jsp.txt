@@ -1,0 +1,91 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>Netflix Editor View</title>
+</head>
+<body
+ style="background-image: url(netflixTVphoto.jpg);">
+&nbsp; &nbsp; &nbsp; &nbsp;<br>
+&nbsp; &nbsp; &nbsp; &nbsp;<span
+ style="font-weight: bold;"></span><br>
+<table
+ style="width: 1428px; height: 122px; text-align: left; margin-left: auto; margin-right: auto;"
+ border="1" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="text-align: center; vertical-align: top;"><big
+ style="font-weight: bold; font-family: Sitka Heading Semibold;"><big><big><big><big><span
+ style="color: rgb(255, 255, 255);">Add a Movie</span></big></big></big></big></big></td>
+    </tr>
+  </tbody>
+</table>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp;<br>
+<br>
+<br>
+<table style="text-align: left; width: 1407px; height: 347px;"
+ border="1" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: left;"><span
+ style="color: rgb(255, 255, 255);"></span><span
+ style="color: rgb(255, 255, 255);"><img
+ style="float: right; width: 737px; height: 423px;"
+ alt="netflixScrollGif"
+ src="netflixScrolling.gif"></span>
+      <div style="text-align: center;">
+      <div style="text-align: left;"><span
+ style="color: rgb(255, 255, 255);"> </span>&nbsp;</div>
+      <span style="color: rgb(255, 255, 255);"></span></div>
+      <span style="color: rgb(255, 255, 255);"></span><span
+ style="color: rgb(255, 255, 255);"></span><span
+ 
+ style="color: rgb(255, 255, 255);">&nbsp;Enter show title<br>
+ <form action=http://localhost:8082/netflixEditorWebsite/netflixServlet method="get">
+	      <input name="showTitleTextArea"><br>
+	      <br>
+	      <input name="AddMovie" value="Add to List"
+	 type="submit"><br>
+ </form>
+      <br>
+      </span><span style="color: rgb(255, 255, 255);"></span><span
+ style="color: rgb(255, 255, 255);"><br>
+      </span><span style="color: rgb(255, 255, 255);"></span><br>
+      <span style="color: rgb(255, 255, 255);"><br>
+      <br>
+      </span><span style="color: rgb(255, 255, 255);"></span><span
+ style="color: rgb(255, 255, 255);"><br>
+      <br>
+      <br>
+      </span><span style="color: rgb(255, 255, 255);"><br>
+      <br>
+      <br>
+      </span>
+      <ol>
+        <li><span style="color: rgb(255, 255, 255);"><small><span
+ style="color: rgb(255, 255, 255);"><br>
+          </span></small></span></li>
+      </ol>
+      <br>
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<table style="text-align: left; width: 512px; height: 32px;"
+ border="1" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td><span style="color: rgb(255, 255, 255);">Copyright
+The Ro Studios</span></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+</body>
+</html>
